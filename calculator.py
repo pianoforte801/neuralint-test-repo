@@ -1,8 +1,7 @@
 # calculator.py
 from utils import add
 
-def add(a, b):
-    return a + b
+
 #handling zero error
 
 def divide(a, b):
