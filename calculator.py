@@ -3,9 +3,12 @@ from utils import add
 
 def add(a, b):
     return a + b
-
+#handling zero error
 
 def divide(a, b):
+    if b == 0:
+        return None
+
     return a / b
 
 
